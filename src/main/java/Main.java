@@ -9,8 +9,8 @@ public class Main {
         post.subscription = Boolean.valueOf("true");
 
         post.birthday = new FormDate();
-        post.birthday.day = "13";
-        post.birthday.month = "6";
-        post.birthday.year = "1999";
+        int day = Integer.parseInt("13");
+        int month = Integer.parseInt("6");
+        int year = Integer.parseInt("1999");
     }
 }
